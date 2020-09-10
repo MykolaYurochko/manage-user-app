@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: rgb(173, 216, 230);
+  padding: 50px 0;
+}
+
+#app-container {
+  width: 60%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(45deg, rgb(105, 104, 189) 0%, rgb(153, 153, 229) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 15px;
+  color: rgb(80, 80, 80);
+  text-shadow: 1px 1px 2px black, 0 0 0.5em rgb(51, 51, 51);
+}
+
+.creating-block {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+#add-user {
+  height: 100%;
+  width: calc(30% - 4px);
+  background: linear-gradient(135deg, rgba(0, 212, 255, 1) 0%, rgb(153, 153, 229) 70%, rgb(105, 104, 189) 100%);
+  font-weight: bolder;
+  margin: 0 1px;
+}
+
+#add-user:hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, rgb(23, 161, 189) 0%, rgb(112, 112, 158) 70%, rgb(56, 55, 97) 100%);
+}
+
+#name-for-saving,
+#full-name-for-saving {
+  width: calc(30% - 4px);
+  margin: 0 1px;
+}
+
+.data-heading-block {
+  display: flex;
+  width: 100%;
+}
+.data-heading {
+  display: block;
+  font-size: 18px;
+  color: rgb(31, 37, 37);
+  font-weight: bolder;
+  text-align: center;
+  margin: 0 1px;
+  width: 30%;
+}
+
+.id-heading {
+  width: 10%;
+}
+
+.single-user {
+  width: 100%;
+  display: flex;
+  padding: 2px 0;
+}
+
+.user-id,
+.user,
+.user-name,
+.update-user,
+.delete-user {
+  display: block;
+  margin: 0 1px;
+}
+
+.user-id {
+  width: 10%;
+}
+
+.user,
+.user-name {
+  width: 30%;
+}
+
+.update-user,
+.delete-user {
+  width: 15%;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 1) 0%, rgb(153, 153, 229) 70%, rgb(105, 104, 189) 100%);
+  font-weight: bolder;
+}
+
+.update-user:hover,
+.delete-user:hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, rgb(23, 161, 189) 0%, rgb(112, 112, 158) 70%, rgb(56, 55, 97) 100%);
+}
